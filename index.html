@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,8 +17,7 @@
     <header class="header">
         <div class="container nav-container">
             <div class="logo">
-                <i class="fa-solid fa-shield-halved"></i>
-                <span>JEOTECH <span>INGENIERÍA S.A.S.</span></span>
+                <img src="LOGO JEOTECH.jpeg" alt="Logo JEOTECH INGENIERÍA S.A.S." class="logo-img">
             </div>
             <nav class="nav-menu">
                 <a href="#inicio">Inicio</a>
@@ -27,7 +25,7 @@
                 <a href="#nosotros">Nosotros</a>
                 <a href="#contacto">Contacto</a>
             </nav>
-            <a href="https://wa.me/573117340513" target="_blank" class="btn-nav">
+            <a href="https://wa.me/573116642377" target="_blank" class="btn-nav">
                 <i class="fa-brands fa-whatsapp"></i> Cotizar
             </a>
         </div>
@@ -41,10 +39,10 @@
                 <h1>Protegemos lo que más te importa con tecnología de punta</h1>
                 <p>Especialistas en diseño, venta e instalación de sistemas de seguridad electrónica para hogares, empresas e industrias. Máxima confiabilidad y monitoreo continuo.</p>
                 <div class="hero-buttons">
-                    <a href="https://wa.me/573117340513" target="_blank" class="btn btn-primary">
+                    <a href="https://wa.me/573116642377" target="_blank" class="btn btn-primary">
                         <i class="fa-brands fa-whatsapp"></i> Hablar con un Asesor
                     </a>
-                    <a href="#servicios" class="btn btn-outline">Nuestros Servicios</a>
+                    <a href="#servicios" class="btn btn-outline">Ver Catálogo de Servicios</a>
                 </div>
             </div>
             <div class="hero-card-visual">
@@ -67,32 +65,173 @@
         <div class="container">
             <div class="section-title">
                 <h2>Soluciones Integrales en Seguridad</h2>
-                <p>Ofrecemos equipos certificados y soporte técnico especializado para garantizar la protección total de su patrimonio.</p>
+                <p>Haz clic en cualquiera de nuestros servicios para desplegar el catálogo de productos disponibles.</p>
             </div>
+            
             <div class="services-grid">
-                <div class="service-card">
-                    <div class="icon-box"><i class="fa-solid fa-video"></i></div>
-                    <h3>CCTV & Cámaras de Seguridad</h3>
-                    <p>Sistemas de videovigilancia inteligente (Tapo, Dahua y más) con visualización en tiempo real desde tu smartphone.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon-box"><i class="fa-solid fa-bell"></i></div>
-                    <h3>Alarmas Intrusión</h3>
-                    <p>Sistemas de detección temprana contra robos con alertas instantáneas y conexión directa.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon-box"><i class="fa-solid fa-id-card"></i></div>
-                    <h3>Control de Acceso y Asistencia</h3>
-                    <p>Dispositivos biométricos avanzados, torniquetes y cerraduras inteligentes para puertas y portones.</p>
-                </div>
-                <div class="service-card">
-                    <div class="icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                    <h3>Instalación y Mantenimiento</h3>
-                    <p>Puesta en marcha profesional, configuración de redes y paquetes de mantenimiento preventivo.</p>
-                </div>
+                <!-- Tarjeta 1: Cámaras -->
+                <a href="#modal-camaras" class="service-card-link">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="fa-solid fa-video"></i></div>
+                        <h3>CCTV & Cámaras de Seguridad</h3>
+                        <p>Sistemas de videovigilancia inteligente (Tapo, Dahua, Picoo). Clic para ver modelos.</p>
+                        <span class="card-btn">Ver Galería <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 2: Alarmas -->
+                <a href="#modal-alarmas" class="service-card-link">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="fa-solid fa-bell"></i></div>
+                        <h3>Alarmas de Intrusión</h3>
+                        <p>Sistemas de detección temprana contra robos con alertas instantáneas a tu celular.</p>
+                        <span class="card-btn">Ver Galería <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 3: Control de Acceso -->
+                <a href="#modal-acceso" class="service-card-link">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="fa-solid fa-id-card"></i></div>
+                        <h3>Control de Acceso y Asistencia</h3>
+                        <p>Dispositivos biométricos, lectoras faciales y cerraduras inteligentes.</p>
+                        <span class="card-btn">Ver Galería <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
+
+                <!-- Tarjeta 4: Instalación -->
+                <a href="#modal-instalacion" class="service-card-link">
+                    <div class="service-card">
+                        <div class="icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h3>Instalación y Mantenimiento</h3>
+                        <p>Puesta en marcha profesional, cableado estructurado y paquetes preventivos.</p>
+                        <span class="card-btn">Ver Información <i class="fa-solid fa-arrow-right"></i></span>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
+
+    <!-- VENTANAS MODALES DESPLEGABLES -->
+
+    <!-- Modal 1: Cámaras -->
+    <div id="modal-camaras" class="modal-overlay">
+        <div class="modal-body">
+            <a href="#servicios" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <i class="fa-solid fa-video"></i>
+                <h2>Catálogo de Cámaras de Vigilancia</h2>
+            </div>
+            <p class="modal-desc">Contamos con cámaras de las mejores marcas (Tapo, Dahua, Hikvision) adaptadas para interiores y exteriores.</p>
+            
+            <div class="modal-gallery">
+                <div class="product-card">
+                    <div class="product-img">
+                        <i class="fa-solid fa-camera-rotate"></i>
+                    </div>
+                    <h4>Cámara Tapo C200 (Wi-Fi 360°)</h4>
+                    <p>Resolución Full HD, Visión Nocturna, Audio bidireccional y Detección de movimiento.</p>
+                    <span class="price">$160.000 COP</span>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20cotizar%20la%20Camara%20Tapo%20C200" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Solicitar</a>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <i class="fa-solid fa-shield-cat"></i>
+                    </div>
+                    <h4>Cámara Dahua Picoo P3I-PV (Exterior)</h4>
+                    <p>Inalámbrica exterior, Sirena activa, Iluminación LED integrados y alta resistencia IP67.</p>
+                    <span class="price">$160.000 COP</span>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20cotizar%20la%20Camara%20Dahua%20Picoo" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Solicitar</a>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <h4>Kits de Cámaras de Seguridad (CCTV)</h4>
+                    <p>Sistemas DVR/NVR de 4, 8 y 16 canales con disco duro de almacenamiento continuo.</p>
+                    <span class="price">Cotización a medida</span>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20cotizar%20un%20Kit%20de%20Camaras" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Solicitar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Alarmas -->
+    <div id="modal-alarmas" class="modal-overlay">
+        <div class="modal-body">
+            <a href="#servicios" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <i class="fa-solid fa-bell"></i>
+                <h2>Sistemas de Alarmas</h2>
+            </div>
+            <p class="modal-desc">Protege las puertas, ventanas y zonas vulnerables con nuestros paneles inteligentes.</p>
+            
+            <div class="modal-gallery">
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h4>Alarma Inteligente Wi-Fi / GSM</h4>
+                    <p>Notificaciones inmediatas a tu celular mediante aplicación. Incluye sensores magnéticos y de movimiento.</p>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20informacion%20de%20Alarmas" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Preguntar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-sensor-triangle-exclamation"></i></div>
+                    <h4>Sensores de Movimiento Infrarrojos</h4>
+                    <p>Evita falsas alarmas, aptos para mascotas y amplias coberturas en salones o bodegas.</p>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20informacion%20de%20Sensores" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Preguntar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Control de Acceso -->
+    <div id="modal-acceso" class="modal-overlay">
+        <div class="modal-body">
+            <a href="#servicios" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <i class="fa-solid fa-id-card"></i>
+                <h2>Control de Acceso y Biometría</h2>
+            </div>
+            <p class="modal-desc">Administra las entradas y salidas de tu personal o residentes con seguridad de última generación.</p>
+            
+            <div class="modal-gallery">
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-fingerprint"></i></div>
+                    <h4>Lector Biométrico de Huella y Tarjeta</h4>
+                    <p>Reportes de asistencia, integración con electroimanes y botones de salida.</p>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20informacion%20de%20Control%20de%20Acceso" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Preguntar</a>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-key"></i></div>
+                    <h4>Cerraduras Inteligentes</h4>
+                    <p>Apertura mediante huella, clave numérica, tarjeta RFID o aplicación móvil.</p>
+                    <a href="https://wa.me/573116642377?text=Hola,%20deseo%20informacion%20de%20Cerraduras%20Inteligentes" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Preguntar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Instalación -->
+    <div id="modal-instalacion" class="modal-overlay">
+        <div class="modal-body">
+            <a href="#servicios" class="modal-close">&times;</a>
+            <div class="modal-header">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>Servicios de Instalación y Mantenimiento</h2>
+            </div>
+            <p class="modal-desc">Nuestros técnicos e ingenieros garantizan la instalación perfecta de tus equipos.</p>
+            
+            <div class="modal-gallery">
+                <div class="product-card">
+                    <div class="product-img"><i class="fa-solid fa-network-wired"></i></div>
+                    <h4>Cableado Estructurado y Redes</h4>
+                    <p>Instalación limpia, profesional, etiquetada y canalizada cumpliendo normas técnicas.</p>
+                    <a href="https://wa.me/573116642377?text=Hola,%20necesito%20servicio%20de%20instalacion" class="btn-product" target="_blank"><i class="fa-brands fa-whatsapp"></i> Agendar Visita</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- About Section -->
     <section id="nosotros" class="about">
@@ -108,8 +247,8 @@
             </div>
             <div class="about-stats">
                 <div class="stat-box">
-                    <h3>+100%</h3>
-                    <p>Compromiso con la Calidad</p>
+                    <h3>100%</h3>
+                    <p>Garantía y Confiabilidad</p>
                 </div>
                 <div class="stat-box">
                     <h3>24/7</h3>
@@ -124,14 +263,14 @@
         <div class="container cta-container">
             <h2>¿Listo para blindar tu hogar o negocio?</h2>
             <p>Contáctanos hoy mismo por WhatsApp y recibe una cotización a la medida de tus requerimientos.</p>
-            <a href="https://wa.me/573117340513?text=Hola%20Jeotech%20Ingeniería,%20estoy%20interesado%20en%20sus%20sistemas%20de%20seguridad." target="_blank" class="btn btn-light">
+            <a href="https://wa.me/573116642377?text=Hola%20Jeotech%20Ingeniería,%20estoy%20interesado%20en%20sus%20sistemas%20de%20seguridad." target="_blank" class="btn btn-light">
                 <i class="fa-brands fa-whatsapp"></i> Chatear con un Ingeniero
             </a>
         </div>
     </section>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/573117340513?text=Hola%20Jeotech%20Ingeniería,%20deseo%20más%20información." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <a href="https://wa.me/573116642377?text=Hola%20Jeotech%20Ingeniería,%20deseo%20más%20información." class="whatsapp-float" target="_blank" aria-label="WhatsApp">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
@@ -140,8 +279,7 @@
         <div class="container footer-content">
             <div class="footer-col">
                 <div class="logo footer-logo">
-                    <i class="fa-solid fa-shield-halved"></i>
-                    <span>JEOTECH <span>INGENIERÍA S.A.S.</span></span>
+                    <img src="LOGO JEOTECH.jpeg" alt="Logo JEOTECH INGENIERÍA S.A.S." class="logo-img footer-logo-img">
                 </div>
                 <p>Expertos en venta e instalación de sistemas de seguridad electrónica.</p>
             </div>
@@ -156,8 +294,8 @@
             </div>
             <div class="footer-col">
                 <h4>Contacto Directo</h4>
-                <p><i class="fa-solid fa-phone"></i> +57 311 734 0513</p>
-                <p><i class="fa-solid fa-envelope"></i> jeotechingenieriasas@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +57 311 6642377</p>
+                <p><i class="fa-solid fa-envelope"></i> contacto@jeotechingenieria.com</p>
             </div>
         </div>
         <div class="footer-bottom">
